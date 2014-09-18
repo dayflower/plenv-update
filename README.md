@@ -7,5 +7,5 @@ Original is [rbenv-update](https://github.com/rkh/rbenv-update).
 
 Simply clone the repository into the plugins directory:
 
-    mkdir -p $PLENV_ROOT/plugins
-    git clone https://github.com/dayflower/plenv-update.git $PLENV_ROOT/plugins/plenv-update
+    cd  ${PLENV_ROOT:-$(plenv root)}/plugins
+    git clone https://github.com/shalk/plenv-update.git 
